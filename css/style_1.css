@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(248, 10, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+.container{
+    border: solid 1px rgba(255,255,255, 0.2);
+
+}
+table{
+    color: black;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+thead{
+    background: aqua;
+
+}
+th{
+    padding: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+td{
+    padding: 15px;
+    border-bottom: 1px  rgba(255,255,255, 0.2);
+    
+}
+tbody tr :hover{
+    cursor: pointer;
+
+} 
+
+tbody tr :hover{
+     background-color: blueviolet;
+
+} 
